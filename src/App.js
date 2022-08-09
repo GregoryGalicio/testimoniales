@@ -5,7 +5,10 @@ import Testimonial from './components/Testimonial';
 function App() {
   return (
     <div className="App">
-      <Testimonial></Testimonial>
+      <div className='principal-container'>
+      <h1>Esto es lo que dicen nuestros alumnos sobre freeCodeCamp:</h1>
+      <Testimonial/>
+      </div>
     </div>
   );
 }
