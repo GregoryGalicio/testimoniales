@@ -2,22 +2,23 @@ import React from 'react';
 import "./Testimonial.css";
 
 
-const Testimonial = () => {
-      return(
-        <div className= 'container-testimonial'>
+
+function Testimonial (props) {
+    return(
+      <div className= 'container-testimonial'>
           <img 
           className='imagen-testimonial' 
-          src={require('../imagenes/testimonio-emma.png')}
-          alt='imagen de Emma'
+          src={require(`../imagenes/testimonio-${props.imagen}.png`)}
+          alt={props.imagen}
           />
           <div className ='container-text'>
-            <p className='name-testimonial'>Emma Bostian en Suecia</p>
-            <p className='cargo-testimonial'>Ingeniera de Software en Spotify</p>
-            <p className='text-testimonial'>"Siempre he tenido problemas para aprender JavaScript. He tomado muchos cursos, pero el curso de freeCodeCamp fue el que se quedó. Estudiar JavaScript, así como estructuras de datos y algoritmos en freeCodeCamp me dio las habilidades y la confianza que necesitaba para conseguir el trabajo de mis sueños como ingeniero de software en Spotify."</p>
+            <p className='name-testimonial'>{props.name} en {props.country}</p>
+            <p className='cargo-testimonial'>{props.position} en {props.company}y</p>
+            <p className='text-testimonial'>"{props.testimonial}"</p>
           </div>
         </div>
-
-      );
+    )
+      ;
 }
 
 export default Testimonial;
