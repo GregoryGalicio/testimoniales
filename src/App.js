@@ -1,21 +1,40 @@
 import './App.css';
 import Testimonial from './components/Testimonial';
 import React from "react";
-// import { dataBase } from './baseDatos.js';
+import { dataBase } from './baseDatos.js';
+
+
+console.log(dataBase)
 
 function App() {
+  
  
   return (
     <div className="App">
       <div className='principal-container'>
       <h1>Esto es lo que dicen nuestros alumnos sobre freeCodeCamp:</h1>
-      <Testimonial 
-            name='Shawn Wang'
-            country='Singapore'
+      {dataBase.map((dataBase, index) => {
+        return (
+          <Testimonial
+          name= {dataBase.name}
+          country={dataBase.country}
+          imagen={dataBase.imagen}
+          position={dataBase.position}
+          company={dataBase.company}
+          testimonial={dataBase.testimonial}
+          key={index}
+           
+          />
+        );
+      })}
+      <Testimonial  
+            name= {dataBase[0].name}
+            country={dataBase[0].country}
             imagen='shawn'
             position='Software Engineer'
             company='Amazon'
             testimonial='Da miedo cambiar de carrera. Solo gané la confianza de que podía programar trabajando en los cientos de horas de lecciones gratuitas en freeCodeCamp. En un año tenía un trabajo de seis cifras como ingeniero de software. freeCodeCamp cambió mi vida '
+            key={dataBase.id}
           />
       <Testimonial 
            name='Sarah Chima'

@@ -13,7 +13,7 @@ function Testimonial (props) {
           />
           <div className ='container-text'>
             <p className='name-testimonial'>{props.name} en {props.country}</p>
-            <p className='cargo-testimonial'>{props.position} en {props.company}y</p>
+            <p className='cargo-testimonial'>{props.position} en {props.company}</p>
             <p className='text-testimonial'>"{props.testimonial}"</p>
           </div>
         </div>
