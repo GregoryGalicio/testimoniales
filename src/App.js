@@ -4,7 +4,7 @@ import React from "react";
 import { dataBase } from './baseDatos.js';
 
 
-console.log(dataBase)
+// console.log(dataBase[0].name)
 
 function App() {
   
@@ -23,11 +23,10 @@ function App() {
           company={dataBase.company}
           testimonial={dataBase.testimonial}
           key={index}
-           
           />
         );
       })}
-      <Testimonial  
+      {/* <Testimonial  
             name= {dataBase[0].name}
             country={dataBase[0].country}
             imagen='shawn'
@@ -51,7 +50,7 @@ function App() {
            position='Ingeniero de Software'
            company='Spotify'
            testimonial='Siempre me ha costado aprender JavaScript. Tomé muchos cursos, pero el curso de freeCodeCamp fue el que se quedó. Estudiar JavaScript, así como estructuras de datos y algoritmos en freeCodeCamp me dio las habilidades y la confianza que necesitaba para conseguir el trabajo de mis sueños como un ingeniero de software en Spotify'
-          />    
+          />     */}
       </div>
     </div>
   );
