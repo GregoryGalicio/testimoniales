@@ -16,7 +16,7 @@ function Testimonial (props) {
             <p className='cargo-testimonial'>{props.position} en {props.company}</p>
             <p className='text-testimonial'>"{props.testimonial}"</p>
           </div>
-        </div>
+      </div>
     )
       ;
 }

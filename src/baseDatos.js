@@ -1,11 +1,11 @@
 const dataBase = [
     {
-      name:'Shawn Wang',
-      country:'Singapore',
-      imagen:'shawn',
-      position:'Software Engineer',
-      company:'Amazon',
-      testimonial:'Da miedo cambiar de carrera. Solo gané la confianza de que podía programar trabajando en los cientos de horas de lecciones gratuitas en freeCodeCamp. En un año tenía un trabajo de seis cifras como ingeniero de software. freeCodeCamp cambió mi vida ',
+    name:'Shawn Wang',
+    country:'Singapore',
+    imagen:'shawn',
+    position:'Software Engineer',
+    company:'Amazon',
+    testimonial:'Da miedo cambiar de carrera. Solo gané la confianza de que podía programar trabajando en los cientos de horas de lecciones gratuitas en freeCodeCamp. En un año tenía un trabajo de seis cifras como ingeniero de software. freeCodeCamp cambió mi vida ',
     },
     {
         name:'Sarah Chima',
