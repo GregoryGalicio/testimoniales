@@ -12,10 +12,12 @@
     margin-top: 50px;
     box-shadow: 0 3px 13px 1px rgb(0 0 0 / 59%);
 }
+
 .imagen-testimonial{
     /* border: 1px solid green; */
     height: 368px;
 }
+
 .container-text{
     text-align: center;
     padding: 40px;

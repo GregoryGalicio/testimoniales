@@ -22,6 +22,14 @@ const dataBase = [
         position:'Ingeniero de Software',
         company:'Spotify',
         testimonial:'Siempre me ha costado aprender JavaScript. Tomé muchos cursos, pero el curso de freeCodeCamp fue el que se quedó. Estudiar JavaScript, así como estructuras de datos y algoritmos en freeCodeCamp me dio las habilidades y la confianza que necesitaba para conseguir el trabajo de mis sueños como un ingeniero de software en Spotify',
+    },
+    {
+        name:'Emma Boss',
+        country:'Marroco',
+        imagen:'emma',
+        position:'Ingeniero de Software',
+        company:'Spotify',
+        testimonial:'Siempre me ha costado aprender JavaScript. Tomé muchos cursos, pero el curso de freeCodeCamp fue el que se quedó. Estudiar JavaScript, así como estructuras de datos y algoritmos en freeCodeCamp me dio las habilidades y la confianza que necesitaba para conseguir el trabajo de mis sueños como un ingeniero de software en Spotify',
     }];
 
     export { dataBase };
